@@ -1,0 +1,182 @@
+body {
+    background-image: url(assets/image/bckgrn.png);
+    margin: 0;
+}
+
+/* nav */
+nav {
+    position: relative;
+    background-image: url(assets/image/bckgrn.png);
+}
+
+nav .navbar-brand {
+    color: wheat !important;
+    font-size: 23px;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a.nav-link {
+    color: rgb(165, 137, 86);
+    font-size: 20px;
+}
+
+nav a.nav-link.active,
+nav a.nav-link:hover {
+    color: wheat !important;
+}
+
+/* about */
+#about {
+    position: relative;
+    padding-top: 65px;
+    text-align: center;
+}
+
+#about img {
+    width: 300px;
+    height: 300px;
+    border: 8px solid rgb(110, 75, 9);
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: top center;
+    -o-object-position: top center;
+}
+
+@media only screen and (max-width: 600px) {
+    #about img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+#about h1 {
+    position: relative;
+    margin: 0;
+    padding-top: 5px;
+    color: wheat;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#about h5 {
+    position: relative;
+    margin: 0;
+    color: wheat;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+/* project */
+#project {
+    background-color: rgb(185, 221, 244);
+    position: relative;
+    padding: 60px 0 0 0;
+}
+
+#project h2 {
+    position: relative;
+    margin-bottom: 50px;
+    color: rgb(83, 90, 92);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#project .project-item {
+    position: relative;
+    margin: 15px 0;
+}
+
+#project .project-item img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: top center;
+    -o-object-position: top center;
+    margin-bottom: 15px;
+}
+
+#project .project-item h3 {
+    position: relative;
+    font-size: 20px;
+    color: rgb(83, 90, 92);
+}
+
+#project .project-item h5 {
+    position: relative;
+    font-size: 15px;
+    color: rgb(83, 90, 92);
+}
+
+#contact {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: rgb(214, 246, 133);
+}
+
+#contact form {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact form label {
+    color: rgb(76, 81, 85);
+    font-size: 600;
+    text-transform: uppercase;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    position: relative;
+    padding: 8px 10px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: 2px solid rgb(76, 81, 85);
+}
+
+#contact form button[type="submit"] {
+    position: relative;
+    display: block;
+    width: 50%;
+    background-color: rgb(76, 81, 85);
+    border: 2px solid rgb(76, 81, 85);
+    color: turquoise;
+    margin: 15px auto;
+}
+
+#contact form button[type="submit"]:hover {
+    background-color: transparent;
+    color: yellow;
+}
+
+#footer {
+    position: relative;
+    padding: 10px;
+}
+
+#footer p {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+
+@media(max-width:800px) {
+    nav .navbar-brand {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:458px) {
+    #about {
+        padding-top: 150px;
+    }
+}

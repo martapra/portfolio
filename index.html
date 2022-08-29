@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marta Pradana - Junior Front End Developer</title>
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- lightbox css -->
+    <link rel="stylesheet" href="assets/plugins/lightbox/css/lightbox.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- jquery 3.6 -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- about -->
+    <section id="about">
+        <div class="container">
+            <img class="rounded-circle" src="assets/image/martapra.jpg" alt="">
+            <h1>JUNIOR FRONTEND DEVELOPER</h1>
+            <h5>My name is Marta Pradana Nugraha Putri, born on 21th of March 2003</h5>
+            <h5>I live in Madiun, I am a Junior Frontend Developer</h5>
+        </div>
+
+        <!-- waves -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="rgb(141, 102, 28)" fill-opacity="1"
+                d="M0,64L48,74.7C96,85,192,107,288,128C384,149,480,171,576,165.3C672,160,768,128,864,122.7C960,117,1056,139,1152,149.3C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+        <!-- end waves -->
+
+    </section>
+    <!-- end about -->
+
+    <!-- projects -->
+    <section id="project">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="project-item col-md-6">
+                    <a href="assets/image/portfolio.jpg" data-lightbox="project-1" data-title="Portfolio 1"><img
+                            src="assets/image/portfolio.jpg" alt=""></a>
+                    <h3>Portfolio</h3>
+                    <h5>HTML 5, BOOTSTRAP 5, JQUERY</h5>
+                </div>
+                <div class="project-item col-md-6">
+                    <a href="assets/image/laravel.jpg" data-lightbox="project-1" data-title="Portfolio 1"><img
+                            src="assets/image/laravel.jpg" alt=""></a>
+                    <h3>Point Of Sale</h3>
+                    <h5>LARAVEL 9, MYSQL</h5>
+                </div>
+                <div class="project-item col-md-6">
+                    <a href="assets/image/mutasi.jpg" data-lightbox="project-1" data-title="Portfolio 1"><img
+                            src="assets/image/mutasi.jpg" alt=""></a>
+                    <h3>Mutasi Security</h3>
+                    <h5>LARAVEL 9, MYSQL</h5>
+                </div>
+                <div class="project-item col-md-6">
+                    <a href="assets/image/php.jpg" data-lightbox="project-1" data-title="Portfolio 1"><img
+                            src="assets/image/php.jpg" alt=""></a>
+                    <h3>Katalog Komputer</h3>
+                    <h5>PHP NATIVE</h5>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- end projects -->
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="container">
+            <form action="">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Marta Pradana">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="martanugraha210303@gmail.com">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" placeholder="My name is Marta Pradana Nugraha Putri, born on 21th of March 2003, I live in Madiun" rows="3"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- end contact -->
+
+    <section id="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.202255504424!2d111.51646851401226!3d-7.768364679206225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79a2fcc7cececf%3A0xa3c14c4618dcdb11!2sMTs.%20Negeri%20Doho%20Dolopo%20Madiun!5e0!3m2!1sid!2sid!4v1661688393832!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <p>&#169; WEARNES EDUCATION CENTER MADIUN - IK1 ( 2021/2022 )</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/bootstrap.min.js"> </script>
+    <script src="assets/plugins/lightbox/js/lightbox.min.js"></script>
+</body>
+
+</html>
